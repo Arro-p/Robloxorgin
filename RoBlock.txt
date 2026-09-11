@@ -1,0 +1,22 @@
+! Title: RoBlock Origin
+! Description: Custom Roblox UI cleanup filters for uBlock Origin
+! Homepage: https://ayysail.github.io/Robloxorgin/
+! Version: 1.0.0
+
+! === Roblox Plus subscription sections ===
+www.roblox.com##div[data-section-type*="SUBSCRIPTION"]
+www.roblox.com##div[data-testid*="subscription"]
+www.roblox.com##a[href="/plus"]
+www.roblox.com##a[href*="/plus"]
+
+! === Sponsored catalog items and recommendations ===
+www.roblox.com###populated-sponsored-catalog-items
+www.roblox.com##.sponsored-item-card
+www.roblox.com##.sponsored-layer
+www.roblox.com##.recommendations-container
+
+! === General ad and sponsor containers ===
+www.roblox.com##.sponsored-game
+www.roblox.com##div[data-testid="sponsored-ad"]
+www.roblox.com##.ad-container
+www.roblox.com##iframe[src*="ads"]
