@@ -1,0 +1,65 @@
+// ==UserScript==
+// @name         RoBlock Origin
+// @namespace    https://ayysail.github.io/Robloxorgin/
+// @version      1.0.0
+// @description  Custom Roblox UI cleanup filters
+// @homepageURL  https://ayysail.github.io/Robloxorgin/
+// @match        https://www.roblox.com/*
+// @run-at       document-start
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    'use strict';
+
+    const selectors = [
+        // Roblox Plus subscription sections
+        'div[data-section-type*="SUBSCRIPTION"]',
+        'div[data-testid*="subscription"]',
+        'a[href="/plus"]',
+        'a[href*="/plus"]',
+
+        // Sponsored catalog items and recommendations
+        '#populated-sponsored-catalog-items',
+        '.sponsored-item-card',
+        '.sponsored-layer',
+        '.recommendations-container',
+
+        // General ad and sponsor containers
+        '.sponsored-game',
+        'div[data-testid="sponsored-ad"]',
+        '.ad-container',
+        'iframe[src*="ads"]'
+    ];
+
+    const selector = selectors.join(', ');
+
+    function removeMatches(root = document) {
+        root.querySelectorAll(selector).forEach(element => {
+            element.remove();
+        });
+    }
+
+    // Remove anything already present.
+    removeMatches();
+
+    // Watch for Roblox's dynamically generated UI.
+    const observer = new MutationObserver(mutations => {
+        for (const mutation of mutations) {
+            for (const node of mutation.addedNodes) {
+                if (node.nodeType !== Node.ELEMENT_NODE) continue;
+
+                if (node.matches?.(selector)) {
+                    node.remove();
+                } else {
+                    removeMatches(node);
+                }
+            }
+        }
+    });
+
+    observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true
+    });
+})();
