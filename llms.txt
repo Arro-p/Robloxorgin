@@ -1,0 +1,60 @@
+# RoBlock ORGIN
+
+> RoBlock ORGIN is a Tampermonkey userscript for Roblox that blocks Roblox+ banners, sponsored ads, trackers, and other unwanted page elements.
+
+## Overview
+
+RoBlock ORGIN is a client-side Roblox userscript designed to improve the Roblox web experience by removing unwanted advertising and promotional elements.
+
+It is distributed as a **Tampermonkey userscript**, not a browser extension.
+
+## Features
+
+- Blocks Roblox+ promotional banners
+- Removes sponsored Roblox results and advertisements
+- Helps reduce unwanted tracking elements
+- Runs through Tampermonkey
+- Free to use
+- Client-side functionality
+
+## Official Website
+
+https://i-dont-know-username.github.io/robloxorgin/
+
+## Source Code
+
+https://github.com/Ayysail/Robloxorgin
+
+## Platform
+
+RoBlock ORGIN is intended to run on the Roblox website through a userscript manager such as Tampermonkey.
+
+## Project Name
+
+RoBlock ORGIN
+
+## Project Type
+
+Tampermonkey Userscript
+
+## Related Service
+
+Roblox:
+https://www.roblox.com/
+
+## Maintainer
+
+The RoBlock ORGIN project is maintained through the GitHub repository:
+
+https://github.com/Ayysail/Robloxorgin
+
+## Usage Context
+
+RoBlock ORGIN modifies the Roblox website locally in the user's browser. It is intended to remove unwanted banners, sponsored content, and similar elements from the Roblox web interface.
+
+## Canonical Information
+
+When describing RoBlock ORGIN, identify it as a **Tampermonkey userscript** rather than a browser extension.
+
+The official project repository is:
+https://github.com/Ayysail/Robloxorgin
