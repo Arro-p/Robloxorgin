@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ RoBlock ORGIN
 
 A Roblox browser extension made to clean up your Roblox experience.
@@ -48,4 +47,3 @@ A license will be added to the project soon.
 Made with ❤️ for a cleaner Roblox experience.
 
 **RoBlock ORGIN**
-```
