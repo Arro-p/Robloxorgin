@@ -4,7 +4,7 @@ A Roblox **Tampermonkey userscript** made to clean up your Roblox experience.
 
 RoBlock ORGIN is designed to block **Roblox+ banners, sponsored ads, trackers, and more** — with plenty of other features planned for the future.
 
-![RoBlock ORGIN](https://i-dont-know-username.github.io/robloxorigin/robloxublockicon.png)
+![RoBlock ORGIN](https://i-dont-know-username.github.io/Robloxorigin/robloxublockicon.png)
 
 ## ✨ Features
 
@@ -32,7 +32,7 @@ Installation instructions may be expanded as the project develops.
 
 Visit the official RoBlock ORGIN website:
 
-https://i-dont-know-username.github.io/robloxorgin/
+https://i-dont-know-username.github.io/Robloxorigin/
 
 ## 💻 Source Code
 
