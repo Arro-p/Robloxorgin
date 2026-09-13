@@ -1,11 +1,10 @@
-```markdown
 # 🛡️ RoBlock ORGIN
 
-A Roblox browser extension made to clean up your Roblox experience.
+A Roblox **Tampermonkey userscript** made to clean up your Roblox experience.
 
 RoBlock ORGIN is designed to block **Roblox+ banners, sponsored ads, trackers, and more** — with plenty of other features planned for the future.
 
-![RoBlock ORGIN](https://ayysail.github.io/arrotakenn/robloxublockicon.png)
+![RoBlock ORGIN](https://i-dont-know-username.github.io/Robloxorigin/robloxublockicon.png)
 
 ## ✨ Features
 
@@ -23,11 +22,17 @@ Stay tuned for updates.
 
 ## 📦 Installation
 
-> Installation instructions will be added when the extension is ready for release.
+RoBlock ORGIN is a **Tampermonkey userscript**, not a browser extension.
+
+To use it, install [Tampermonkey](https://www.tampermonkey.net/) in your browser and then install the RoBlock ORGIN userscript.
+
+Installation instructions may be expanded as the project develops.
 
 ## 🌐 Website
 
-Visit the RoBlock ORGIN website to learn more about the project.
+Visit the official RoBlock ORGIN website:
+
+https://i-dont-know-username.github.io/Robloxorigin/
 
 ## 💻 Source Code
 
@@ -37,7 +42,7 @@ The source code for RoBlock ORGIN is available right here on GitHub.
 
 Want to help improve RoBlock ORGIN?
 
-Feel free to open an issue or submit a pull request with improvements, bug fixes, or feature ideas.
+Feel free to open an issue or submit a pull request with improvements, bug fixes, documentation updates, or feature ideas.
 
 ## 📜 License
 
@@ -48,4 +53,3 @@ A license will be added to the project soon.
 Made with ❤️ for a cleaner Roblox experience.
 
 **RoBlock ORGIN**
-```
