@@ -24,7 +24,7 @@ Stay tuned for updates.
 
 RoBlock ORGIN is a **Tampermonkey userscript**, not a browser extension.
 
-# As of Sun, Sep 13 the browser extension is no longer supported.
+ **As of Sun, Sep 13 the browser extension is no longer supported.**
 
 To use it, install [Tampermonkey](https://www.tampermonkey.net/) in your browser and then install the RoBlock ORGIN userscript.
 
@@ -34,7 +34,7 @@ Installation instructions may be expanded as the project develops.
 
 Visit the official RoBlock ORGIN website:
 
-https://i-dont-know-username.github.io/Robloxorigin/
+https://arro-p.github.io/Robloxorigin/
 
 ## 💻 Source Code
 
