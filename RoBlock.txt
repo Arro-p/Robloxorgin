@@ -20,3 +20,6 @@ www.roblox.com##.sponsored-game
 www.roblox.com##div[data-testid="sponsored-ad"]
 www.roblox.com##.ad-container
 www.roblox.com##iframe[src*="ads"]
+
+! === Roblox UI cleanup ===
+www.roblox.com##div.css-jgnf4-heroUnitContentContainer
