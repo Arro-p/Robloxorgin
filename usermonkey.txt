@@ -1,4 +1,4 @@
-```javascript
+javascript
 // ==UserScript==
 // @name         RoBlock Origin
 // @namespace    https://ayysail.github.io/Robloxorgin/
